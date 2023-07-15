@@ -1,5 +1,5 @@
 <script>
-import Counter from './components/Counter_Alter.vue'
+import Counter from './components/Clock.vue'
 export default {
   components: {
     Counter // Counterコンポーネントをローカルコンポーネントとして登録
