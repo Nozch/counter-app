@@ -4,11 +4,9 @@ export default {
         return { count: 0 }
     },
     methods:  {
-        increment() {
-            this.count++
+        increment() {this.count++
         },
-        decrement() {
-            this.count--
+        decrement() {this.count--
         }
     }
 }

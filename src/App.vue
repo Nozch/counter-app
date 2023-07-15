@@ -1,6 +1,5 @@
 <script>
-import Counter from './components/Counter.vue' // あなたのCounterコンポーネントがあるパスに適宜変更してください
-
+import Counter from './components/Counter_Alter.vue'
 export default {
   components: {
     Counter // Counterコンポーネントをローカルコンポーネントとして登録
