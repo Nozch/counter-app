@@ -1,13 +1,13 @@
 <script>
-import Counter from './components/Clock.vue'
+import Weather from './components/Weather.vue'
 export default {
   components: {
-    Counter // Counterコンポーネントをローカルコンポーネントとして登録
+    Weather
   }
 }
 </script>
 <template>
   <div id="app">
-    <Counter /> <!-- ここでCounterコンポーネントを使用 -->
+    <Weather /> <!-- ここでCounterコンポーネントを使用 -->
   </div>
 </template>
